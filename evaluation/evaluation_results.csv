@@ -1,0 +1,65 @@
+question,question_type,expected_entity,detected_intent,passed,answer
+Which region is best for grapes?,crop_to_region,Ararat,crop_to_region,True,"The best region for grape cultivation in Armenia is the **Ararat** region. 
+
+### Explanation of the Result:
+
+1. **Final Suitability Score**: Ararat has the highest Final Suitability Score of **92.27**, indicating it is the most suitable region for growing grapes compared to others.
+
+2. **Yield**: The average yield in Ararat is **207.10 quintals per hectare**, which is significantly higher than the other regions. This high yield score contributes **100.0** to the overall suitability, making it a "
+Which region is best for potato cultivation in Armenia?,crop_to_region,Armavir,crop_to_region,False,"The best region for potato cultivation in Armenia is the **Ararat region**. 
+
+### Explanation of the Result:
+
+1. **Yield**: The Ararat region has an average yield of **296.34 quintals per hectare**, which is quite high and contributes significantly to its suitability score (90.50/100). This indicates that potatoes grown in this region are likely to produce a substantial harvest.
+
+2. **Climate Match**: The average air temperature in Ararat is **13.27°C**, which is favorable for potato growth. The"
+Is potato suitable for Gegharkunik?,suitability_check,Gegharkunik,suitability_check,True,"Moderately suitable.
+
+Explanation: The suitability of potatoes in Gegharkunik is assessed based on several factors, including climate indicators, yield data, and irrigation needs. 
+
+1. **Yield Data**: The average yield of potatoes in Gegharkunik is 204.48 quintals per hectare, which indicates a reasonable productivity level for this crop in the region.
+
+2. **Climate Indicators**: The average air temperature in Gegharkunik is 6.42°C, which is lower than the optimal range for potato growth. Potato"
+I live in Shirak. What crops can I cultivate?,region_to_crop,Cabbage,region_to_crop,True,"In the Shirak region, based on historical average yields and climate indicators, the following crops are recommended for cultivation:
+
+1. **Cabbage** - Average Yield: 314.73 quintals per hectare
+2. **Beetroot** - Average Yield: 266.92 quintals per hectare
+3. **Fodder Roots** - Average Yield: 264.86 quintals per hectare
+4. **Potato** - Average Yield: 227.55 quintals per hectare
+5. **Carrot** - Average Yield: 219.35 quintals per hectare
+
+### Climate Indicators:
+- **Irrigation Indicator**: 10672.92"
+I live in Ararat and water availability is limited. What should I cultivate?,climate_risk,Tomato,region_to_crop,True,"Given the limited water availability in the Ararat region, it is advisable to focus on crops that are resilient to dry conditions and have historically performed well in terms of yield. Based on the dataset evidence and climate indicators, here are the recommended crops for cultivation:
+
+1. **Fodder Roots** - With an average yield of 537.50 quintals per hectare, fodder roots are a top-performing crop in the region. They are generally more resilient to dry spells and can provide essential feed fo"
+This year is dry and hot in Armavir. Which crops are safer to grow?,climate_risk,Tomato,climate_risk,True,"In the dry and hot conditions of Armavir, it is essential to consider crops that have historically performed well in such climates. Based on historical average yield data, the following crops are recommended:
+
+1. **Tomato** - Historically high-performing with an average yield of 394.20 quintals per hectare.
+2. **Fodder Roots** - Average yield of 386.52 quintals per hectare.
+3. **Cabbage** - Average yield of 385.72 quintals per hectare.
+4. **Eggplant** - Average yield of 358.99 quintals per hecta"
+Compare Ararat and Armavir for grape production.,comparison,Ararat,region_comparison,True,"When comparing the Ararat and Armavir regions for grape production, we can analyze several key factors including yield, climate match, irrigation indicators, and overall suitability scores.
+
+### Ararat Region:
+- **Average Yield**: 207.10 quintals per hectare
+- **Average Air Temperature**: 13.27 °C
+- **Precipitation**: 19.79 mm
+- **Average Relative Humidity**: 63.93%
+- **Irrigation Indicator**: 99,853.87
+- **Final Suitability Score**: 92.27 (Low Risk)
+  - **Yield Score**: 100.00
+  - **Climate Sco"
+"If rainfall decreases by 20% and temperature increases by 2°C, where should I grow grapes?",scenario,Ararat,climate_scenario,True,"Based on the projected climate scenario of a 20% decrease in rainfall and a 2°C increase in temperature, the following regions are ranked for grape cultivation:
+
+1. **Ararat**: This region has the highest average yield of 207.10 quintals per hectare, with a low risk level. The climate match score is 82.9/100, indicating a strong suitability for grape production under the projected conditions.
+
+2. **Armavir**: With an average yield of 166.43 quintals per hectare, this region also shows a low risk"
+What is climate-smart agriculture?,knowledge,climate-smart agriculture,general_knowledge,True,"Climate-smart agriculture (CSA) is an approach designed to transform agricultural systems to support food security in the face of climate change. It aims to provide context-specific and flexible solutions that address the challenges posed by climate variability and extremes. CSA has three primary objectives:
+
+1. **Increase Agricultural Productivity**: CSA seeks to enhance the productivity of agricultural systems, ensuring that farmers can produce enough food to meet the demands of a growing popu"
+How does climate change affect water management in agriculture?,knowledge,water management,general_knowledge,True,"Climate change significantly impacts water management in agriculture through various mechanisms that alter the water cycle. Here are the key ways in which these changes manifest:
+
+1. **Increased Evapotranspiration**: As temperatures rise, the rate of evapotranspiration increases, leading to higher water demand for crops. This can exacerbate water scarcity, especially in regions already facing water stress.
+
+2. **Altered Rainfall Patterns**: Climate change is expected to change both the quantity "

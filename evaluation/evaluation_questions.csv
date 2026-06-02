@@ -1,0 +1,11 @@
+question,expected_entity,question_type
+"Which region is best for grapes?",Ararat,crop_to_region
+"Which region is best for potato cultivation in Armenia?",Armavir,crop_to_region
+"Is potato suitable for Gegharkunik?",Gegharkunik,suitability_check
+"I live in Shirak. What crops can I cultivate?",Cabbage,region_to_crop
+"I live in Ararat and water availability is limited. What should I cultivate?",Tomato,climate_risk
+"This year is dry and hot in Armavir. Which crops are safer to grow?",Tomato,climate_risk
+"Compare Ararat and Armavir for grape production.",Ararat,comparison
+"If rainfall decreases by 20% and temperature increases by 2°C, where should I grow grapes?",Ararat,scenario
+"What is climate-smart agriculture?",climate-smart agriculture,knowledge
+"How does climate change affect water management in agriculture?",water management,knowledge
