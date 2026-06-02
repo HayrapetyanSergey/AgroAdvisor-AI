@@ -6,7 +6,7 @@
 # AgroAdvisor AI
 ### AI-Powered Agricultural Decision Support System for Armenia
 
-![alt text](image.png)
+![alt text](images/sc1.png)
 
 ---
 
